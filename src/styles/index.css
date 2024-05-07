@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    background-color: bisque;
+}
+#page {
+    background-color: white;
+}
+
+#root {
+    flex: 1;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
