@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 body {
     width: 100vw;
@@ -12,7 +13,12 @@ body {
     background-color: bisque;
 }
 #page {
+    max-width: 550px;
     background-color: white;
+    border-radius: 9px;
+}
+#page>*{
+    border-radius: 9px;
 }
 
 #root {
@@ -21,4 +27,11 @@ body {
 
     justify-content: center;
     align-items: center;
+}
+
+#CardList {
+    margin: 49px 0px 30px 19px;
+
+    display: flex;
+    overflow-x: hidden;
 }

@@ -1,5 +1,5 @@
 #hero{
-    max-width: 550px;
+    
 }
 
 .heroImg {
@@ -10,11 +10,13 @@
 
 .title {
     margin: 0;
-    padding: 32px 36px 0px 36px;
-    font-size: 36px;
+    padding: 6px 36px 0px 36px;
+    font-size: 2.25rem;
 }
 
 .subText {
     margin: 16px 36px;
     width: 320px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    line-height: 1.2rem;
 }
