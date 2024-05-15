@@ -17,7 +17,7 @@ body {
     background-color: white;
     border-radius: 9px;
 }
-#page>*{
+#page > *{
     border-radius: 9px;
 }
 
@@ -29,9 +29,3 @@ body {
     align-items: center;
 }
 
-#CardList {
-    margin: 49px 0px 30px 19px;
-
-    display: flex;
-    overflow-x: hidden;
-}

@@ -1,10 +1,21 @@
+#CardList {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    border-radius: 0;
+    margin: 49px 0px 30px 36px;
+
+}
+
 #Card {
-    margin-left: 18px;
+    width: 176px;
+    font-size: .75rem;
+    flex: 0 0 auto;       
     display: flex;
     flex-direction: column;
-    font-size: .75rem;
-    width: 176px;
-    height: auto;
+    position: relative;
+
 }
 
 .card--info>*{
@@ -12,13 +23,28 @@
    
 }
 
+.card--preview {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card--title {
+    /* margin: 8px 0; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .card--info {
-    display: flex;
+    /* display: flex;
     flex: 1;
     margin-top: 9px;
     justify-content: flex-start;
-    max-height: 14px;
+    max-height: 14px; */
     
+    display: flex;
+    align-items: center;
 }
 
 .card--star {
@@ -29,6 +55,17 @@
     color: #918E9B;
 }
 
-.card--title {
-    margin: 8px 0;
+
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
